@@ -47,8 +47,8 @@ python main.py
 http://localhost:5000
 ```
 
-- **Upload a CSV file. </br>
-- **Interact with the application by either generating a chart from the CSV data or asking data-related queries.
+- Upload a CSV file. </br>
+- Interact with the application by either generating a chart from the CSV data or asking data-related queries.
 
 ## How It Works
 
@@ -62,11 +62,13 @@ http://localhost:5000
 ### Example Queries:
 - "Generate a pie chart of the gender distribution."
 - "Generate a histogram of ages from the dataset."
+  
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
 ## Acknowledgments
 - OpenAI for the GPT-4 API.
+- Prompt engineering.
 - Flask for the web framework.
 - Matplotlib and Seaborn for data visualization.
 
