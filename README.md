@@ -1,8 +1,9 @@
-# Chart Generation and Data Interaction Web Application
+![image](https://github.com/user-attachments/assets/1d717c29-c7b4-4738-a2bd-44c4f6d69d99)# Chart Generation and Data Interaction Web Application
 
 This project is a web application designed for generating various statistical charts (bar, pie, histogram, scatter) based on user-uploaded CSV data. It also includes a conversational AI feature using OpenAI's GPT-4 model for generating Python code snippets based on natural language input related to data queries. The application is built using Flask, with OpenAI's API for conversation and code generation, and utilizes Pandas for data handling and Matplotlib/Seaborn for visualization.
 
-![Application Screenshot](static/image.png)
+
+![images (3)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Ffeaturepreneur%2Flets-create-some-charts-using-python-plotly-444c8878b6b0&psig=AOvVaw3owmkrkydPyVlO0EhpeHtK&ust=1726476538481000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOi1pLnIxIgDFQAAAAAdAAAAABAJ)
 
 ## Folder Structure
 
@@ -63,9 +64,6 @@ http://localhost:5000
 - "Generate a histogram of ages from the dataset."
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 - OpenAI for the GPT-4 API.
