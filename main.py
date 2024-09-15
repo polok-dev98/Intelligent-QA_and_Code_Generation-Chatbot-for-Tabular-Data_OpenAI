@@ -53,7 +53,7 @@ def generate_chart_api():
                     plt.figure(figsize=(12, 16))
                     plt.pie(gender_counts, labels=gender_counts.index, autopct='%1.1f%%', startangle=90, colors=['skyblue', 'lightcoral'])
                     plt.title('Distribution of Gender Among Students')
-                    plt.savefig('output.png')
+                    plt.savefig('.static/output.png')
 
      For example 2 :
      english query : generate python code for histogram of age based on name
@@ -65,7 +65,7 @@ def generate_chart_api():
     				plt.ylabel('Frequency')
     				plt.title('Histogram of Age based on Names')
     				plt.grid(True)
-                    plt.savefig('output.png')
+                    plt.savefig('.static/output.png')
     """
     conversation_history = [
         {"role": "system", "content": "You are a helpful assistant."},
